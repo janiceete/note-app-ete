@@ -12,4 +12,4 @@ const update = function (note, oldNote) {
     })
     fs. writeFileSync('note.txt', JSON.stringify(newNote))
 }
-module.exports - update
+module.exports = update
